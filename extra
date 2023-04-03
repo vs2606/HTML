@@ -1,0 +1,31 @@
+meta
+div
+
+[DISPLAY]
+--->
+block elements- which usually take up the whole line 
+        *div
+        *p
+        *h1-h6
+        *lists
+        *forms
+
+--->
+inline elements- only take space that is needed
+       *span
+       *img
+       *a
+difference is in inline we cannot change the width while in block we can change but still the next element appears on the next line only.
+
+we change the display property of block elements to inline(but loses change in width option) and vice-versa
+
+--->
+****but to get the property of both .....
+      display: inline-block;
+
+--->
+display: none;
+hides the element as it was not even there
+....
+but visibility: hidden;
+hides it and keeps its place safe.
